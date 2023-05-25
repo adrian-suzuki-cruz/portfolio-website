@@ -8,89 +8,127 @@ Header Color (Metal Gray): #667080
 
 
 body {
-    background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 300; /* Sets the font weight to 300 */
-    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
-  }h1, h2, h3, h4 {
-    line-height: 1.4;
-  }h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-  }h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-  }
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
 
-  img {
-    width: 100%;
-  }
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
 
-  a {
-    color: #ff7f50;
-    text-decoration: none; /* No underlining */
-  }
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
 
-  a:hover,
-  a:focus {
-    color: #cc6540;
-    text-decoration: underline;
-  }
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
 
-  a:visited { /* visited link */
-    color: #c1b5b1;
-  }
-  a:active { /* selected link */
-    color: #994c30;
-  }
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 
-  .button {
-    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #ff7f50;
-    color: #ffffff; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #994c30; /* width of the border, type, color */
-    transition: 0.2s opacity;
-  }
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
 
-  .button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-  }
+img {
+  width: 100%;
+}
 
-  .button.contact :hover {
-    background-color:transparent;
-    color: #ff7f50;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
-  }
+a {
+  color: #ff7f50;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
+
+a:visited {
+  /* visited link */
+  color: #c1b5b1;
+}
+
+a:active {
+  /* selected link */
+  color: #994c30;
+}
+
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ff7f50;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button.contact :hover {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
 
 
-  header {
-    background-color: #387771;
-    padding: 10px;
-  }
-
-  selector {
-    margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-  }
-
-  selector {
-    position: relative;
-  }
-
-  selector {
-    float: right;
-  }
+header {
+  background-color: #387771;
+  padding: 10px;
+}
 
 
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+
+#hero h1 {
+  text-align:left; /* Centers text */
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #387771;
+  text-align: center;
+  padding: 10px 0;
+}
