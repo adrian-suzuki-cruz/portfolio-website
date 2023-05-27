@@ -56,6 +56,7 @@ a {
   /* No underlining */
 }
 
+
 a:hover,
 a:focus {
   color: #cc6540;
@@ -129,9 +130,42 @@ header {
   max-width: 250px;
 }
 
+.logo {
+  max-width: 250px;
+  width: 250px;
+}
+
 header {
-  background-color: #387771;
-  border-bottom: 3px
-  width:100%;
-  padding: 10px 0 18px;
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ccc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.navigation a:hover {
+  background-color: #aaa;
 }
