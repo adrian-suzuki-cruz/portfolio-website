@@ -132,7 +132,6 @@ header {
 header {
   background-color: #387771;
   border-bottom: 3px
-  position: fixed;
   width:100%;
   padding: 10px 0 18px;
 }
