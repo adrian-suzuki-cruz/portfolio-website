@@ -111,12 +111,14 @@ header {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 
 #hero h1 {
-  text-align:left; /* Centers text */
+  text-align: left;
+  /* Centers text */
 }
 
 .center {
@@ -129,6 +131,8 @@ header {
 
 header {
   background-color: #387771;
-  text-align: center;
-  padding: 10px 0;
+  border-bottom: 3px
+  position: fixed;
+  width:100%;
+  padding: 10px 0 18px;
 }
