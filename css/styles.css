@@ -121,6 +121,14 @@ a:active {
 }
 
 
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
 
 #hero h1 {
   text-align: left;
