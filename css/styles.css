@@ -160,6 +160,15 @@ header {
   float: left;
 }
 
+.photo {
+  max-width: 1200px;
+}
+
+.photo {
+  max-width: 1200px;
+  width: 400px;
+  float: left;
+}
 
 
 
