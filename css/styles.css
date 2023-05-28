@@ -114,13 +114,6 @@ a:active {
 }
 
 
-header {
-  background-color: #387771;
-  padding: 10px;
-}
-
-
-
 
 .row {
   margin: 125px 0;
@@ -138,17 +131,22 @@ header {
   text-align: center;
 }
 
-.logo {
-  max-width: 250px;
-  display: inline-block;
+
+
+
+header {
+  background-color: rgba(202, 228, 219, 0.5);
+  padding: 10px 0;
+  border-bottom: 3px solid #4a4a4a;
+  display: block;
 }
 
 
 .logo {
-  max-width: 200px;
+  max-width: 250px;
   width: 180px;
-  display: inline-block;
   font-weight: 700;
+  display: inline-block;
 }
 
 
@@ -170,14 +168,6 @@ header {
   width: 400px;
 }
 
-
-
-header {
-  background-color: rgba(202, 228, 219, 0.5);
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 3px solid #4a4a4a;
-}
 
 
 .navigation {
@@ -234,13 +224,50 @@ main {
 
 
 
-
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  .navigation {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .navigation ul {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .navigation li {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .navigation a {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .navigation a:hover {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+
 }
+
+
+
 
 /* ==============================
 Large devices (1024px or larger)
