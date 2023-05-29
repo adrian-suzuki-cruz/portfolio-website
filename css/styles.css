@@ -113,11 +113,17 @@ a:active {
   border: 2px solid #ff7f50;
 }
 
-
-
 .row {
-  margin: 125px 0;
-  /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
