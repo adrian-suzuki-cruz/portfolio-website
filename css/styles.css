@@ -243,31 +243,31 @@ Medium devices (640px and larger)
 
   .navigation {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
   }
 
   .navigation ul {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
   }
 
   .navigation li {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
   }
 
   .navigation a {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
   }
 
   .navigation a:hover {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
   }
 
