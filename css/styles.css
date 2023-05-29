@@ -121,12 +121,10 @@ a:active {
 }
 
 
-.col-md-6 {
-  width: 50%;
-}
 
 [class*="col-"] {
   float: left;
+  padding: 10px;
 }
 
 
@@ -154,13 +152,10 @@ header {
 
 
 .project {
-  max-width: 500px;
+  max-width: 100%;
 }
 
-.project {
-  max-width: 500px;
-  width: 498px;
-}
+
 
 .photo {
   max-width: 1200px;
@@ -300,8 +295,16 @@ nav > ul > li {
     margin-top: 4px;
   }
 
-
 }
+.col-md-6 {
+    width: 50%;
+}
+.col-md-8 {
+    width: 60%;
+    padding: 10px 20px 10px 10px;
+}
+
+
 
 
 
