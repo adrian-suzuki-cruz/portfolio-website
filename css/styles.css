@@ -13,6 +13,27 @@ Header Color (Metal Gray): #667080
 }
 
 
+
+#project img {
+  animation-name: translate;
+  animation-duration: 4s; /* Adjust the duration to control the speed */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes translate {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+
+#project img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+
 body {
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
