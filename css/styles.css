@@ -159,6 +159,11 @@ header {
 }
 
 
+.selfie {
+  max-width: 600px;
+}
+
+
 .logo {
   max-width: 64px;
   padding-top: 5.5px;
