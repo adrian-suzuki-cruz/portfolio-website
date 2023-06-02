@@ -428,7 +428,7 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
 
 .col-lg-7 {
   width: 60%;
@@ -438,6 +438,7 @@ Large devices (1024px or larger)
   width: 40%;
 }
 
+}
 
 /* ==============================
 X-large devices (1440px or larger)
