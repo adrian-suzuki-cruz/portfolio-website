@@ -169,6 +169,12 @@ header {
   padding-top: 5.5px;
 }
 
+.social {
+  padding-top: 4.5px;
+  width: 40px;
+  height: 40px;
+}
+
 nav>ul {
   list-style-type: none;
   padding: 0;
