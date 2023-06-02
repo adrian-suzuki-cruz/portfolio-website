@@ -125,7 +125,7 @@ a:active {
 
 
 .row {
-  margin: 25px 0;
+  margin: 35px 0;
   /* 25px top and bottom, 0 left and right */
 }
 
@@ -158,15 +158,29 @@ header {
   max-width: 100%;
 }
 
-
-
-.photo {
-  max-width: 1200px;
+.project2 {
+  max-width: 75%;
+  max-height: 50%;
+  padding-left: 10px;
 }
 
+.project3 {
+  max-width: 65%;
+  max-height: 50%;
+  padding-left: 10px;
+  float:right;
+}
+
+.project4 {
+  max-width: 65%;
+  max-height: 50%;
+  padding-left: 10px;
+  float:center;
+}
+
+
 .photo {
-  max-width: 1200px;
-  width: 400px;
+  max-width: 100%;
 }
 
 
@@ -182,8 +196,13 @@ header {
 
 .social {
   padding-top: 10px;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+}
+
+.newtitle {
+  text-decoration: none;
+  text-align: none;
 }
 
 nav>ul {
@@ -254,10 +273,25 @@ nav>ul>li>a {
 }
 
 
+
+#contact {
+  background-color: #ffe4c4;
+  text-align: left;
+}
+
+#contact {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+
 #olive h1 {
   padding-top: 100px;
   margin-top: 30px;
-  text-align: left;
+  text-align: center;
   padding: 50px;
   background-color:  #344e4f;
   color: #fff;
