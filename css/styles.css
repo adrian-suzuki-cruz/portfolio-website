@@ -168,14 +168,14 @@ header {
   max-width: 65%;
   max-height: 50%;
   padding-left: 10px;
-  float:right;
+  float: right;
 }
 
 .project4 {
   max-width: 65%;
   max-height: 50%;
   padding-left: 10px;
-  float:center;
+  float: center;
 }
 
 
@@ -278,7 +278,7 @@ nav>ul>li>a {
   margin-top: 30px;
   text-align: left;
   padding: 50px;
-  background-color:  #344e4f;
+  background-color: #344e4f;
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
@@ -291,7 +291,7 @@ nav>ul>li>a {
   margin-top: 30px;
   text-align: left;
   padding: 50px;
-  background-color:  #344e4f;
+  background-color: #344e4f;
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
@@ -317,7 +317,7 @@ nav>ul>li>a {
   margin-top: 30px;
   text-align: center;
   padding: 50px;
-  background-color:  #344e4f;
+  background-color: #344e4f;
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
@@ -430,13 +430,13 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-.col-lg-7 {
-  width: 60%;
-}
+  .col-lg-7 {
+    width: 60%;
+  }
 
-.col-lg-4 {
-  width: 40%;
-}
+  .col-lg-4 {
+    width: 40%;
+  }
 
 }
 
