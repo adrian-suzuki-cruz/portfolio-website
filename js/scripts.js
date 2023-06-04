@@ -1,0 +1,1 @@
+console.log("Hello, welcome to my UX portfolio, A quick shoutout to my UX mentor, Ardie, who helped me learn how to build this website.");
