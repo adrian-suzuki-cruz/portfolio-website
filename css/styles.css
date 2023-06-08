@@ -371,6 +371,10 @@ main {
   text-decoration: none;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 
 
 
@@ -450,7 +454,16 @@ Medium devices (640px and larger)
   }
 
   .logo {
-    max-width: 40px;
+    max-width: 60px;
+  }
+
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
 }
