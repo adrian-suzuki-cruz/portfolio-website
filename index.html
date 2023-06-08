@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c0319dc98.js" crossorigin="anonymous"></script>
     <title>Adrian Suzuki-Cruz UX Design Website</title>
 </head>
 
@@ -21,23 +22,28 @@
 <body>
     <header>
         <div class="container">
-            <div>
-                <a href="index.html">
-                    <picture>
-                        <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
-                        <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
-                    </picture>
-                </a>
-                <nav div class="navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="olive.html">My Projects</a></li>
-                        <li><a href="about-adrian.html">About Me</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+            <div class="navtoggle" id="myNavtoggle">
+                <nav>
+                    <div class="container">
+                        <div>
+                            <a href="index.html">
+                                <picture>
+                                    <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
+                                    <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
+                                </picture>
+                            </a>
+                            <i class="fa-solid fa-bars"></i>
+                            <nav div class="navigation">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="olive.html">My Projects</a></li>
+                                    <li><a href="about-adrian.html">About Me</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </nav>
-            </div>
-        </div>
     </header>
     <main>
         <div id="hero">
@@ -135,9 +141,10 @@
                 <div>
                     <div>
                         <a href="LINKEDIN-URL" target="blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" class=social xmlns:xlink="http://www.w3.org/1999/xlink"
-                                enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0"
-                                viewBox="0 0 32 32" width="32px" xml:space="preserve">
+                            <svg xmlns="http://www.w3.org/2000/svg" class=social
+                                xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 32 32"
+                                height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px"
+                                xml:space="preserve">
                                 <g>
                                     <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd"
                                         r="16" />
@@ -163,10 +170,8 @@
             </div>
         </div>
     </footer>
-    <script
-  src="https://code.jquery.com/jquery-3.7.0.min.js"
-  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 

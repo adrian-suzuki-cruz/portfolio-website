@@ -16,15 +16,24 @@ Header Color (Metal Gray): #667080
 
 #project img {
   animation-name: translate;
-  animation-duration: 4s; /* Adjust the duration to control the speed */
+  animation-duration: 4s;
+  /* Adjust the duration to control the speed */
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
 @keyframes translate {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(100%); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #project img {
@@ -211,7 +220,7 @@ header {
 
 
 .logo {
-  max-width: 64px;
+  max-width: 40px;
   padding-top: 5.5px;
 }
 
@@ -440,6 +449,10 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
+  .logo {
+    max-width: 40px;
+  }
+
 }
 
 
@@ -458,6 +471,7 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
+
 
 }
 
