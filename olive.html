@@ -22,21 +22,25 @@
 <body>
     <header>
         <div class="container">
-            <div>
-                <a href="index.html">
-                    <picture>
-                        <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
-                        <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
-                    </picture>
-                </a>
-                <nav div class="navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="olive.html">My Projects</a></li>
-                        <li><a href="about-adrian.html">About Me</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <div>
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
+                            <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
+                        </picture>
+                    </a>
+                    <nav div class="navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="olive.html">My Projects</a></li>
+                            <li><a href="about-adrian.html">About Me</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                        class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
