@@ -381,9 +381,9 @@ main {
 }
 
 .navtoggle li .icon {
-  position: absolute;
+  position: fixed;
   right: 0;
-  top: 2px;
+  top: 0;
   font-size: 20px;
 }
 
