@@ -251,10 +251,14 @@ nav>ul>li>a {
   display: inline-block;
 }
 
-.navigation,
-.navigation.responsive {
+.navtoggle.responsive .logo {
   position: relative;
 }
+
+.navtoggle.responsive .logo {
+  display: none;
+}
+
 
 .navigation ul {
   list-style-type: none;
