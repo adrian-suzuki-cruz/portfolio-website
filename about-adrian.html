@@ -1,191 +1,229 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Adrian">
-    <meta name="description" content="short description related to page">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3c0319dc98.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Adrian" />
+    <meta name="description" content="short description related to page" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3c0319dc98.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Adrian Suzuki-Cruz UX Design Website</title>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <div>
-                    <a href="index.html">
-                        <picture>
-                            <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
-                            <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
-                        </picture>
-                    </a>
-                    <nav div class="navigation">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="olive.html">My Projects</a></li>
-                            <li><a href="about-adrian.html">About Me</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
-                                        class="fas fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <div>
+            <a href="index.html">
+              <picture>
+                <source
+                  srcset="img/olive/adrian-logo@1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/olive/adrian-logo@2x.png"
+                  class="logo"
+                  alt="Adrian logo"
+                />
+              </picture>
+            </a>
+            <nav class="navigation">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="olive.html">My Projects</a></li>
+                <li><a href="about-adrian.html">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="menuToggle()"
+                    ><i class="fas fa-bars"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <main>
-        <div class="container">
-            <div id="top">
-                <div class="row">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="photo">
-                            <picture>
-                                <source srcset="img/adrian-pic@1x.png" media="(max-width: 767px)">
-                                <img src="img/adrian-pic@2x.jpg" class=selfie alt="Profile Photo">
-                            </picture>
-                            <div>
-                                <h3>UX/UI Skills & Tools</h3>
-                                <ul>
-                                    <li>User Research</li>
-                                    <li>Competitive Analysis</li>
-                                    <li>Prototyping</li>
-                                    <li>User Flows</li>
-                                    <li>User Testing</li>
-                                    <li>UI Design</li>
-                                    <li>Wireframing</li>
-                                    <li>Frontend Development</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div>
-                            <h3>Design & Frontend Tools</h3>
-                            <ul>
-                                <li>Sketch</li>
-                                <li>Figma</li>
-                                <li>Adobe xD</li>
-                                <li>HTML/CSS</li>
-                                <li>Java</li>
-                            </ul>
-                            <a href="files/resume.pdf" class="button" target="_blank">Download Resume</a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-6 col-lg-7">
-
-
-                        <div>
-                            <h1>Hi, my name is Adrian.</h1>
-                            <p>I am a UX/Product Designer with frontend development skills.
-                                I create cohesive and functional designs based on user research and applied
-                                through UX design frameworks. </p>
-
-                            <p>I am currently based in Irvine, CA and I create cohesive
-                                and functional designs based on user research and applied through UX design frameworks.
-                                Over the past 8 years, I've built a successful career in sales. It's been an incredible
-                                journey during which I've gained valuable insights into customer relationships and my
-                                developing my sales skills. However, I've always been intrigued by research and
-                                improving business systems.</p>
-
-                            <p>After doing someonlineresearch,IdiscoveredthatUXdesign
-                                incorporates these aspects of empathy, design, and research into a field that focuses on
-                                enhancing the user experience. This realization sparked a desire for me to transition
-                                into UX design.</p>
-
-                            <p>In order to acquire a new skill such as UX, I recognized the need for a systematic
-                                approach to learning and enhancing my UX skills. After researching various educational
-                                institutions, I ultimately selected CareerFoundry because of their well-organized
-                                courses and personalized mentorship program.</p>
-
-
-                            <p>As I was working full-time, I had to dedicate my evenings and weekends to learning UX on
-                                a part- time basis. Although it was challenging, it proved to be a worthwhile journey
-                                for me. After completing the program in 11 months, I am proud of all the skills I have
-                                acquired and my transition into a UX designer.
-
-
-                                When I am not working or thinking of UX Design, I love to travel, learn new languages,
-                                and spend time with friends and family. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
+      <div class="container">
+        <div id="top">
+          <div class="row">
             <div class="col-md-6 col-lg-5">
+              <div class="photo">
+                <picture>
+                  <source
+                    srcset="img/adrian-pic@1x.png"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="img/adrian-pic@2x.jpg"
+                    class="selfie"
+                    alt="Profile Photo"
+                  />
+                </picture>
+                <div>
+                  <h3>UX/UI Skills and Tools</h3>
+                  <ul>
+                    <li>User Research</li>
+                    <li>Competitive Analysis</li>
+                    <li>Prototyping</li>
+                    <li>User Flows</li>
+                    <li>User Testing</li>
+                    <li>UI Design</li>
+                    <li>Wireframing</li>
+                    <li>Frontend Development</li>
+                  </ul>
+                </div>
+              </div>
 
+              <div>
+                <h3>Design and Frontend Tools</h3>
+                <ul>
+                  <li>Sketch</li>
+                  <li>Figma</li>
+                  <li>Adobe xD</li>
+                  <li>HTML/CSS</li>
+                  <li>Java</li>
+                </ul>
+                <a href="files/resume.pdf" class="button" target="_blank"
+                  >Download Resume</a
+                >
+              </div>
             </div>
+
             <div class="col-md-6 col-lg-7">
+              <div>
+                <h1>Hi, my name is Adrian.</h1>
+                <p>
+                  I am a UX/Product Designer with frontend development skills. I
+                  create cohesive and functional designs based on user research
+                  and applied through UX design frameworks.
+                </p>
 
+                <p>
+                  I am currently based in Irvine, CA and I create cohesive and
+                  functional designs based on user research and applied through
+                  UX design frameworks. Over the past 8 years, I've built a
+                  successful career in sales. It's been an incredible journey
+                  during which I've gained valuable insights into customer
+                  relationships and my developing my sales skills. However, I've
+                  always been intrigued by research and improving business
+                  systems.
+                </p>
+
+                <p>
+                  After doing someonlineresearch,IdiscoveredthatUXdesign
+                  incorporates these aspects of empathy, design, and research
+                  into a field that focuses on enhancing the user experience.
+                  This realization sparked a desire for me to transition into UX
+                  design.
+                </p>
+
+                <p>
+                  In order to acquire a new skill such as UX, I recognized the
+                  need for a systematic approach to learning and enhancing my UX
+                  skills. After researching various educational institutions, I
+                  ultimately selected CareerFoundry because of their
+                  well-organized courses and personalized mentorship program.
+                </p>
+
+                <p>
+                  As I was working full-time, I had to dedicate my evenings and
+                  weekends to learning UX on a part- time basis. Although it was
+                  challenging, it proved to be a worthwhile journey for me.
+                  After completing the program in 11 months, I am proud of all
+                  the skills I have acquired and my transition into a UX
+                  designer. When I am not working or thinking of UX Design, I
+                  love to travel, learn new languages, and spend time with
+                  friends and family.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-
+      <div class="row">
+        <div class="col-md-6 col-lg-5"></div>
+        <div class="col-md-6 col-lg-7"></div>
+      </div>
     </main>
 
-
-
     <footer id="contact">
-        <div class="container">
-            <div class="row">
-                <div>
-                    <h2>Get in Touch</h2>
-                    <p>To contact me, simply click on the button below and send me an email.
-                        Alternatively, you
-                        can
-                        find and
-                        connect with me on any of the social media platforms.</p>
-                    <div>
-                        <a href="mailto:office@careerfoundry.com" class="button contact">Send Email</a>
-                    </div>
+      <div class="container">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>
+            To contact me, simply click on the button below and send me an
+            email. Alternatively, you can find and connect with me on any of the
+            social media platforms.
+          </p>
+          <div>
+            <a href="mailto:office@careerfoundry.com" class="button contact"
+              >Send Email</a
+            >
+          </div>
 
-                    <div>
-                        <div>
-                            <a href="LINKEDIN-URL" target="blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0"
-                                    viewBox="0 0 32 32" width="32px" xml:space="preserve">
-                                    <g>
-                                        <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd"
-                                            r="16" />
-                                        <g>
-                                            <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
-                                            <path
-                                                d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
-                                                fill="#FFFFFF" />
-                                            <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
-                                        </g>
-                                    </g>
-                                    <g />
-                                    <g />
-                                    <g />
-                                    <g />
-                                    <g />
-                                    <g />
-                                </svg>
-                            </a>
-                        </div>
-                        <p>Copyright Adrian Suzuki-Cruz 2023</p>
-                    </div>
-                </div>
+          <div>
+            <div>
+              <a href="LINKEDIN-URL" target="blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  width="48px"
+                  height="48px"
+                >
+                  <path
+                    fill="#0288D1"
+                    d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+                  />
+                  <path
+                    fill="#FFF"
+                    d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+                  />
+                </svg>
+              </a>
             </div>
+            <p>Copyright Adrian Suzuki-Cruz 2023</p>
+          </div>
         </div>
+      </div>
     </footer>
-    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
