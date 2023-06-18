@@ -1,178 +1,226 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Adrian">
-    <meta name="description" content="short description related to page">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3c0319dc98.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Adrian" />
+    <meta name="description" content="short description related to page" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3c0319dc98.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Adrian Suzuki-Cruz UX Design Website</title>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <div>
-                    <a href="index.html">
-                        <picture>
-                            <source srcset="img/olive/adrian-logo@1x.jpg" media="(max-width:767px)">
-                            <img src="img/olive/adrian-logo@2x.png" class="logo" alt="Adrian logo">
-                        </picture>
-                    </a>
-                    <nav div class="navigation">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="olive.html">My Projects</a></li>
-                            <li><a href="about-adrian.html">About Me</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
-                                        class="fas fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <div>
+            <a href="index.html">
+              <picture>
+                <source
+                  srcset="img/olive/adrian-logo@1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/olive/adrian-logo@2x.png"
+                  class="logo"
+                  alt="Adrian logo"
+                />
+              </picture>
+            </a>
+            <nav class="navigation">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="olive.html">My Projects</a></li>
+                <li><a href="about-adrian.html">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="menuToggle()"
+                    ><i class="fas fa-bars"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <main>
-        <div id="hero">
-            <div class="container">
-                <h1>Hi, my name is Adrian.</h1>
-                <span>I am a UX/Product Designer with frontend development skills.</span>
-                <p>I create cohesive and functional designs based on user research and employing
-                    through
-                    UX design
-                    frameworks. </p>
-                    <a href="files/resume.pdf" class="button" target="_blank">Download Resume</a>
-            </div>
-        </div>
-
-        <section id="project">
-            <div class="container">
-                <img src="img/olive/girl-animation.svg" alt="Project Animation">
-            </div>
-        </section>
-
+      <div id="hero">
         <div class="container">
-            <div id="work">
-                <h2>My Work</h2>
-                <div class="row">
-                    <div class="col-md-6 col-lg-7">
-                        <picture>
-                            <source srcset="img/olive/olive-design@1x.jpg" media="(max-width:767px)">
-                            <img src="img/olive/olive-design@2x.png" alt="Olive App" class="project">
-                        </picture>
-                    </div>
+          <h1>Hi, my name is Adrian.</h1>
+          <span
+            >I am a UX/Product Designer with frontend development skills.</span
+          >
+          <p>
+            I create cohesive and functional designs based on user research and
+            employing through UX design frameworks.
+          </p>
+          <a href="files/resume.pdf" class="button" target="_blank"
+            >Download Resume</a
+          >
+        </div>
+      </div>
 
-                    <div class="col-md-6 col-lg-5">
-                        <div>
-                            <h3>Olive App</h3>
-                            <h4>Mood Tracking App</h4>
-                            <p>Olive is an mood tracking app designed for health-conscious individuals
-                                who
-                                seek to
-                                improve their mental health by consistently tracking their moods. I
-                                conducted user
-                                research and testing to develop a simple to use app design.</p>
-                            <a href=" olive.html" class="button" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
+      <section id="project">
+        <div class="container">
+          <img src="img/olive/girl-animation.svg" alt="Project Animation" />
+        </div>
+      </section>
 
-                <div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-7">
-                            <picture>
-                                <source
-                                    srcset="img/the-military-retirement-blue-print/the-military-retiree-blueprint@1px.jpg"
-                                    media="(max-width:767px)">
-                                <img src="img/the-military-retirement-blue-print/the-military-retiree-blueprint@2px.png"
-                                    alt="The Military Blueprint" class="project">
-                            </picture>
-                        </div>
-
-
-                        <div class="col-md-6 col-lg-5">
-                            <div>
-                                <h3>The Military Retirement Blueprint</h3>
-                                <h4>Redesigned Sitemap</h4>
-                                <p>The Military Blueprint is a small business that assists military
-                                    retirees
-                                    in
-                                    maximizing their benefits for their families. I contributed to the
-                                    redesign of their
-                                    sitemap on Mighty Networks, an online community, with the aim of
-                                    boosting engagement
-                                    among members and promoting attendance at their live events and
-                                    session
-                                    calls.</p>
-                                <a href=" the-military-retirement-blueprint" class="button" target="_blank">View
-                                    Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div id="work">
+          <h1>My Work</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-7">
+              <picture>
+                <source
+                  srcset="img/olive/olive-design@1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/olive/olive-design@2x.png"
+                  alt="Olive App"
+                  class="project"
+                />
+              </picture>
             </div>
+
+            <div class="col-md-6 col-lg-5">
+              <div>
+                <h3>Olive App</h3>
+                <h4>Mood Tracking App</h4>
+                <p>
+                  Olive is an mood tracking app designed for health-conscious
+                  individuals who seek to improve their mental health by
+                  consistently tracking their moods. I conducted user research
+                  and testing to develop a simple to use app design.
+                </p>
+                <a href=" olive.html" class="button" target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="row">
+              <div class="col-md-6 col-lg-7">
+                <picture>
+                  <source
+                    srcset="
+                      img/the-military-retirement-blue-print/the-military-retiree-blueprint@1px.jpg
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/the-military-retirement-blue-print/the-military-retiree-blueprint@2px.png"
+                    alt="The Military Blueprint"
+                    class="project"
+                  />
+                </picture>
+              </div>
+
+              <div class="col-md-6 col-lg-5">
+                <div>
+                  <h3>The Military Retirement Blueprint</h3>
+                  <h4>Redesigned Sitemap</h4>
+                  <p>
+                    The Military Blueprint is a small business that assists
+                    military retirees in maximizing their benefits for their
+                    families. I contributed to the redesign of their sitemap on
+                    Mighty Networks, an online community, with the aim of
+                    boosting engagement among members and promoting attendance
+                    at their live events and session calls.
+                  </p>
+                  <a
+                    href=" the-military-retirement-blueprint"
+                    class="button"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-
     <footer id="contact">
-        <div class="container">
+      <div class="container">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>
+            To contact me, simply click on the button below and send me an
+            email. Alternatively, you can find and connect with me on any of the
+            social media platforms.
+          </p>
+          <div>
+            <a href="mailto:office@careerfoundry.com" class="button contact"
+              >Send Email</a
+            >
+          </div>
+
+          <div>
             <div>
-                <h2>Get in Touch</h2>
-                <p>To contact me, simply click on the button below and send me an email. Alternatively, you
-                    can
-                    find and
-                    connect with me on any of the social media platforms.</p>
-                <div>
-                    <a href="mailto:office@careerfoundry.com" class="button contact">Send Email</a>
-                </div>
-
-                <div>
-                    <div>
-                        <a href="LINKEDIN-URL" target="blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" class=social
-                                xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 32 32"
-                                height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px"
-                                xml:space="preserve">
-                                <g>
-                                    <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd"
-                                        r="16" />
-                                    <g>
-                                        <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
-                                        <path
-                                            d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
-                                            fill="#FFFFFF" />
-                                        <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
-                                    </g>
-                                </g>
-                                <g />
-                                <g />
-                                <g />
-                                <g />
-                                <g />
-                                <g />
-                            </svg>
-                        </a>
-                    </div>
-                    <p>Copyright Adrian Suzuki-Cruz 2023</p>
-                </div>
+              <a href="LINKEDIN-URL" target="blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  width="48px"
+                  height="48px"
+                >
+                  <path
+                    fill="#0288D1"
+                    d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+                  />
+                  <path
+                    fill="#FFF"
+                    d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+                  />
+                </svg>
+              </a>
             </div>
+            <p>Copyright Adrian Suzuki-Cruz 2023</p>
+          </div>
         </div>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
