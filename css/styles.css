@@ -189,7 +189,6 @@ header {
   max-width: 65%;
   max-height: 50%;
   padding-left: 10px;
-  float: center;
 }
 
 .photo {
@@ -209,11 +208,6 @@ header {
   padding-top: 10px;
   width: 60px;
   height: 60px;
-}
-
-.newtitle {
-  text-decoration: none;
-  text-align: none;
 }
 
 nav > ul {
@@ -378,7 +372,7 @@ nav > ul {
 }
 
 .navtoggle.responsive nav {
-  padding: 20x 0 0;
+  padding: 20px 0 0px;
 }
 .navtoggle.responsive li {
   display: block;
