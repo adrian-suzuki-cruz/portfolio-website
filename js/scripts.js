@@ -1,9 +1,9 @@
-console.log("Hello, welcome to my UX portfolio, A quick shoutout to my UX mentor, Ardie, who helped me learn how to build this website.");
+console.log("Hello! Welcome to my UX Portfolio");
 function menuToggle() {
-    var x = document.getElementById('myNavtoggle');
-    if (x.className === 'navtoggle') {
-      x.className += ' responsive';
-    } else {
-      x.className = 'navtoggle';
-    }
+  var x = document.getElementById("myNavtoggle");
+  if (x.className === "navtoggle") {
+    x.className += " responsive";
+  } else {
+    x.className = "navtoggle";
   }
+}

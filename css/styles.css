@@ -10,12 +10,9 @@ Header Color (Metal Gray): #667080
   box-sizing: border-box;
 }
 
-
-
 #project img {
   animation-name: translate;
   animation-duration: 4s;
-  /* Adjust the duration to control the speed */
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -39,11 +36,9 @@ Header Color (Metal Gray): #667080
   max-height: 50%;
 }
 
-
-
 body {
-  background-color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   /* Sets the font size to 16px */
   font-weight: 300;
@@ -63,7 +58,7 @@ h2 {
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
-  display: inline-block
+  display: inline-block;
 }
 
 h3,
@@ -150,14 +145,10 @@ a:active {
   border: 2px solid #ff7f50;
 }
 
-
-
 .row {
   margin: 35px 0;
   /* 25px top and bottom, 0 left and right */
 }
-
-
 
 #hero h1 {
   text-align: left;
@@ -168,9 +159,6 @@ a:active {
   text-align: center;
 }
 
-
-
-
 header {
   background-color: rgba(202, 228, 219, 0.8);
   padding: 10px 0 4px;
@@ -179,8 +167,6 @@ header {
   width: 100%;
   z-index: 9999;
 }
-
-
 
 .project {
   max-width: 100%;
@@ -206,16 +192,13 @@ header {
   float: center;
 }
 
-
 .photo {
   max-width: 100%;
 }
 
-
 .selfie {
   max-width: 450px;
 }
-
 
 .logo {
   max-width: 40px;
@@ -233,17 +216,16 @@ header {
   text-align: none;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
 }
-
 
 .navigation {
   display: inline-block;
@@ -257,7 +239,6 @@ nav>ul>li>a {
   display: none;
 }
 
-
 .navigation ul {
   list-style-type: none;
   margin: 0;
@@ -266,7 +247,7 @@ nav>ul>li>a {
 }
 
 .navigation li {
-  display: inline-block
+  display: inline-block;
 }
 
 .navigation a {
@@ -314,7 +295,7 @@ nav>ul>li>a {
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
-  display: inline-block
+  display: inline-block;
 }
 
 #top {
@@ -327,7 +308,7 @@ nav>ul>li>a {
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
-  display: inline-block
+  display: inline-block;
 }
 
 #contact {
@@ -343,7 +324,6 @@ nav>ul>li>a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-
 #olive h1 {
   padding-top: 100px;
   margin-top: 30px;
@@ -353,9 +333,8 @@ nav>ul>li>a {
   color: #fff;
   text-decoration: none;
   border-radius: 18px;
-  display: inline-block
+  display: inline-block;
 }
-
 
 #olive {
   padding-top: 100px;
@@ -363,7 +342,6 @@ nav>ul>li>a {
   width: 100%;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
-
 
 main {
   padding-top: 56px;
@@ -378,7 +356,8 @@ main {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -389,34 +368,27 @@ main {
   font-size: 20px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
-
 
 .navtoggle.responsive nav {
   padding: 20x 0 0;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-bottom: 3px solid rgba(255,127,80,0.5);
+  border-bottom: 3px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
-
-
-
-
-
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -436,13 +408,13 @@ Medium devices (640px and larger)
     float: left;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
     display: inline-block;
   }
 
-  nav>ul>li {
-    display: inline-block
+  nav > ul > li {
+    display: inline-block;
   }
 
   .navigation {
@@ -473,9 +445,7 @@ Medium devices (640px and larger)
     width: auto;
     float: left;
     margin-top: 4px;
-
   }
-
 
   [class*="col-"] {
     float: left;
@@ -496,7 +466,6 @@ Medium devices (640px and larger)
     max-width: 100px;
   }
 
-
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
@@ -504,18 +473,12 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-
 }
-
-
-
-
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   .col-lg-7 {
     width: 60%;
   }
@@ -523,16 +486,16 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
-
-
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+}
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+}
