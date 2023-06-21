@@ -143,6 +143,10 @@ a:active {
   text-align: center;
 }
 
+.padding {
+  padding-top: 4px;
+}
+
 header {
   background-color: rgba(202, 228, 219, 0.8);
   padding: 10px 0 4px;
