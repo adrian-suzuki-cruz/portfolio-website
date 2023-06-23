@@ -46,6 +46,7 @@ h4 {
   background-color: #387771;
   color: #fff;
   text-decoration: none;
+  text-align: center;
   border-radius: 30px;
   display: inline-block;
   text-align: center;
@@ -417,16 +418,6 @@ nav > ul {
   }
 }
 
-.work-item {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 1.0s ease, transform 2.5s ease;
-}
-
-.work-item.show {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 
 
@@ -513,6 +504,18 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
+
+  .work-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease, transform 1.0s ease;
+  }
+  
+  .work-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
 
 /* ==============================
@@ -526,6 +529,17 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
+  .work-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease, transform 1.0s ease;
+  }
+  
+  .work-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
 
 /* ==============================

@@ -19,7 +19,7 @@ function isInViewport(element) {
   );
 }
 
-// Function to handle scroll event
+// Function to handle scroll and touch events
 function handleScroll() {
   var workItems = document.querySelectorAll('.work-item');
   
@@ -30,5 +30,6 @@ function handleScroll() {
   }
 }
 
-// Event listener for scroll event
+// Event listeners for scroll and touch events
 window.addEventListener('scroll', handleScroll);
+window.addEventListener('touchmove', handleScroll);
