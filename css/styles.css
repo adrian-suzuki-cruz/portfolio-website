@@ -508,7 +508,7 @@ Medium devices (640px and larger)
   .work-item {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1.0s ease, transform 2.5s ease;
+    transition: opacity 1.0s ease, transform 1.0s ease;
   }
   
   .work-item.show {
@@ -532,7 +532,7 @@ Large devices (1024px or larger)
   .work-item {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1.0s ease, transform 2.5s ease;
+    transition: opacity 1.0s ease, transform 1.0s ease;
   }
   
   .work-item.show {
